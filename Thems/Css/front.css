@@ -1,0 +1,342 @@
+/* Start Main Rules */
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+	background-color: #fafafa;
+	font-size: 16px;
+	font-weight: bold;
+    min-height: 1000px;
+/*    background-image: url("cover.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;*/
+}
+select {
+	text-decoration: none;
+}
+h1{
+    font-size: 55px;
+    font-weight: bold;
+    color: #316895;
+    font-family: serif;
+    padding: 20px;
+}
+.asterisk {
+    font-size: 20px;
+    position: absolute;
+    right: 6px;
+    top: 8px;
+    color: #c02828;
+}
+.navbar {
+    background-color: #000 !important;
+    border-radius: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+#app-nav ul li>a:hover,
+#app-nav ul li>a:focus {
+
+    background-color: #010;
+    color: #fe7400;
+    border-radius: 5px;
+}
+.navbar>.container {
+	height: 37px;
+}
+.navbar-brand {
+	font-size:1em;
+}
+a.nav-link,
+.navbar-brand {
+	padding:15px 15px
+}
+.nav-item {
+	position: relative;
+ 	left: 600px;
+}
+.star{
+	position: relative;
+}
+/*Start Header Edit*/
+.upper-bar {
+	text-decoration: none;
+	padding: 5px;
+    position: relative;
+    background-color: #fff;
+}
+.upper-bar .container {
+    border: 2px solid lightsteelblue;
+    border-radius: 20px;
+    background-color: beige;
+}
+.upper-bar a {
+	text-decoration: none;
+}
+.upper-bar .links {
+    position: absolute;
+    top: 21px;
+    right: 0;
+}
+.upper-bar .links span {
+    margin-right: 150px;
+    border: 2px solid;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+.upper-bar .links span:hover,
+.upper-bar .links span:focus {
+    background-color: #e7f2cf;
+}
+.upper-bar .upper {
+    border: 1px solid black;
+    border-radius: 7px;
+    padding: 4px;
+    background-color: #9ef0e3;
+}
+.upper-bar .upper:hover {
+    background-color: #111615c2;
+    color: var(--bs-orange);
+}
+.upper-bar img {
+    width: 50px;
+    border-radius: 50%;
+}
+/*End Header Edit*/
+/*Start Category Edits*/
+.cards {
+    display: flex;
+}
+.cat {
+    margin-left: 15px;
+}
+.item-box {
+	position: relative;
+    background-color: #858570;
+    padding: 4px 8px;
+    flex-wrap: wrap;
+}
+.item-box .price{
+    position: absolute;
+    background-color: #f00d0d;
+    color: #fff;
+    padding: 0px 6px;
+    left: 0;
+    top: 35px;
+}
+.item-box .img-responsive {
+    margin: 14px 9px;
+}
+.thumbnail .date {
+    color: #fff;
+    font-size: 13px;
+    bottom: 5px;
+    position: absolute;
+    right: 18px;
+}
+.thumbnail .caption a {
+    text-decoration: none;
+    color: white;
+}
+/*End Category Edits*/
+/*Start Login form Edit */
+.container-form {
+    margin: 0;
+    background-image: url("alex.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1000px;
+}
+.login-page h1 {
+    text-align: center;
+    color: #00000061;
+    font-size: 40px;
+    margin-bottom: 250px;
+}
+.login-page form {
+    max-width: 350px;
+    margin: 10px auto;
+}
+.login-page span {
+    cursor: pointer;
+}
+.login-page input{
+    margin: 8px 0;
+}
+.login-page [data-class="login"].selected {
+    color: #4a88c0;
+}
+.login-page [data-class="signup"].selected {
+    color: #4caf50;
+}
+.login-page .signup {
+    display: none;
+}
+.login-page .input-container {
+    position: relative;
+}
+.alert-danger {
+    background-color: #ffffff17;
+    border-color: #cacaca8f;
+    border-left: 5px solid #e30000;
+    font-size: smaller;
+    color: #000;
+    font-weight: normal;
+}
+.alert-success
+{
+    color: #000000;
+    background-color: #f0fff5;
+    border-color: #007a422b;
+    border-left: 5px solid #00d607;
+    font-weight: normal;
+}
+/*End Login form Edit */
+/*Start Profile Page*/
+.panel {
+    color: #FFF;
+}
+.panel .panel-heading{
+    width: 65%;
+    background-color: #3087dc;
+    padding: 6px;
+    background-color: #1e3799;
+    position: relative;
+    margin-top: 15px;
+    margin-left:250px;
+}
+.panel  .profile {
+    width: 65%;
+    background-color: #fff;
+    padding: 8px;
+    border: 2px solid #EEE;
+    margin: 0 0 11px 0;
+    color: #000;
+    margin-left:250px;
+    border: 1px solid #1047bb;
+}
+.profile .alert-primary{
+    background-color: #8fff9017;
+    border-color: #3f8e4d40;
+    border-left: 5px solid #7fbe37;
+    font-size: smaller;
+    color: #000;
+    font-weight: bold;
+}
+.profile .alert-info {
+    background-color: #ffffff17;
+    border-color: #cacaca8f;
+    border-left: 5px solid #e30000;
+    font-size: smaller;
+    color: #000;
+    font-weight: normal;
+}
+.img-item img,
+.comment-box img{
+    border-radius: 50%;
+}
+.unapproval {
+    background-color: #ff1e0e7d;
+    width: 106px;
+    padding: 2px;
+    position: absolute;
+    top: 62px;
+    left: 0;
+    font-weight: normal;
+    border-radius: 5px ;
+}
+.profile .edit {
+    border: 1px solid #0607071f;
+    border-left: 6px solid #89c22f;
+}
+/*End Profile Page*/
+/*Start Items Edit*/
+.item-info h2{
+    padding: 10px;
+}
+.item-info p {
+    padding: 10px;
+}
+.item-info ul li {
+    padding: 10px;
+}
+.item-info ul li:nth-child(odd){
+    background-color: #6e95cc4d;
+}
+.custom-hr {
+    width: 80%;
+    margin-left: 234px;
+}
+.comment-box {
+    margin-bottom: 20px;
+}
+.comment-box img {
+    width: 100px;
+}
+.comment-box .comms {
+    position: relative;
+}
+.comment-box .lead {
+background-color: #c1d3dc;
+    padding: 15px;
+    border-radius: 3px;
+    margin-left: 100px;
+    position: relative;
+    width: calc(74% - 100px);
+    left: 20%;
+    position: absolute;
+    bottom: 100%;
+    min-height: 80px;
+    text-align: left;
+}
+.comment-box .lead:before {
+    content: '';
+    width: 0;
+    height: 0px;
+    border-width: 12px;
+    border-style: solid;
+    position: absolute;
+    border-color: transparent #c1d3dc transparent transparent;
+    left: -24px;
+    top: 10px;
+}
+.item-box {
+    margin-top: 5px;
+    border-radius: 25px;
+}
+.item-box .caption p {
+    height: 40px;
+    max-height: 40px;
+}
+.item-box img {
+    border-radius: 50%;
+}
+/*End Items Edit*/
+/*Start Comment Edit*/
+.add-comm {
+    margin-left: 500px;
+}
+.add-comm textarea {
+    width: 400px;
+    border: 1px solid #3f51b53b;
+    height: 100px;
+}
+.add-comm .btn {
+margin-bottom: 25px;
+}
+/*End Comment Edit*/
+/*Start Items Edit*/
+.tag-link {
+    text-decoration: none;
+    background-color: var(--bs-gray);
+    padding: 2px 7px;
+    font-size: small;
+    border-radius: 6px;
+    color: var(--bs-warning);
+}
+/*End Items Edit*/
